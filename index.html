@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1Naija — 2026 F1 Schedule in Naija Time</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark"></span>
+          <span>F1Naija</span>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">🏁 Local race times for Naija</div>
+            <h1>2026 Formula 1 schedule, converted to Naija time.</h1>
+            <p>
+              Every Grand Prix weekend in Africa/Lagos time. No timezone
+              gymnastics.
+            </p>
+          </div>
+          <div class="hero-actions">
+            <button id="themeToggle" class="toggle" type="button">
+              🌙 Dark mode
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" id="stats"></section>
+
+      <section class="section feature-layout">
+        <article class="card featured-card" id="featuredRace"></article>
+
+        <aside class="card controls">
+          <div class="card-inner">
+            <p class="controls-title">Quick controls</p>
+
+            <div class="field">
+              <label for="searchInput">Search race or circuit</label>
+              <input
+                id="searchInput"
+                type="text"
+                placeholder="Monaco, Suzuka, Silverstone..."
+              />
+            </div>
+
+            <div class="field">
+              <label for="monthSelect">Filter by month</label>
+              <select id="monthSelect"></select>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section">
+        <div class="race-grid" id="raceGrid"></div>
+      </section>
+
+      <footer class="footer">
+        Built for Formula 1 fans in Nigeria. Africa/Lagos timezone only
+      </footer>
+    </div>
+    <script src="sandbox.js"></script>
+  </body>
+</html>
