@@ -23,8 +23,6 @@ This project uses:
 - **CSS** for styling
 - **Vanilla JavaScript** for data rendering, filtering, theme switching, and countdown logic
 
-No frameworks. No build step. No dependency circus.
-
 ## Project structure
 
 A simple version of the project can be organized like this:
